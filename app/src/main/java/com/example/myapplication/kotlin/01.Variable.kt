@@ -9,7 +9,7 @@ package com.example.myapplication.kotlin
 //        - 한번 넣으면 값을 바꿀 수 없는 상자 > Value
 
 // 변수 선언하는 방법
-// var/val 변수명(상자) = 값(넣고 싶은 것)
+// var/val 변수명(상자) = 값(넣고 싶은 것 )
 // Variable/Value
 
 //C# 언어의 Object 형태와 유사
