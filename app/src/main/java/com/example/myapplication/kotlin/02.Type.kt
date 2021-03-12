@@ -23,7 +23,7 @@ var point1 : Double = 3.4
 // 1.변하지 않는 값이라면? > Value
 // 2. 변할지 안변할지 모르겠다 > Value >> Variable (바꿀일이 있을때)
 
-fun main(array: Array<String>){
+fun main(args: Array<String>){
     number = 20
     //number = 20.5 기존에 선언한 변수형과 맞지 않기때문에 오류가난다.
 

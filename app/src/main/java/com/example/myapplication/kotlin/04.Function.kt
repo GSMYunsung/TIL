@@ -51,7 +51,7 @@ fun plusMany(vararg numbers: Int){
     }
 }
 
-fun main(array: Array<String>) {
+fun main(args: Array<String>) {
     //함수를 호출하는 방법
     val result: Int = plus(5, 10) // 15가 된다.
     // 함수에 들어가는 수를 명시적으로 적어 놓을 수 있는 방법

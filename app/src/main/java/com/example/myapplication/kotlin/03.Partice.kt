@@ -16,7 +16,7 @@ var f = "My name is $e Nice to meet you" //변수 e가 $e 자리에 들아간다
 var abc1 : Int? = null // null을 가질 수 있는 자료형
 var abc2 : Float? = null
 
-fun main(array: Array<String>){
+fun main(args: Array<String>){
     println(a)
     println(b)
     println(c)

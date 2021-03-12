@@ -14,7 +14,21 @@ fun mutiplyTree(first : Int=2, Two : Int=5, Tree : Int = 1): Int {
     return first * Two * Tree
 }
 
-fun main(array: Array<String>){
+// 내부 함수
+// - 함수 안에 함수가 있다
+
+fun showMyPlus(first: Int, second: Int): Int{
+    println(first)
+    println(second)
+
+    return plus(first,second)
+
+    fun plus(first: Int, second: Int) : Int{
+        return first+second
+    }
+}
+
+fun main(args: Array<String>){
     val result = PlusTree(1,2,3)
     println(result)
     val result1 = minusTree(12,2,4)
