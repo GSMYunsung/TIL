@@ -20,7 +20,7 @@ fun main(args: Array<String>){
         null -> println("value is null")
     }
 
-    //when의 값할당당
+    //when의 값할당
    val value3 = when(value2){
         true -> 1
         false -> 3
