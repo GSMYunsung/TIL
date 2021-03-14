@@ -9,6 +9,8 @@ fun main(array : Array<String>){
     // 우측으로 민다.
     a.add(0,100)
     println(a)
+    // 만약 추가할 칸에 인자가 있더라도 기존 모든 인자들을
+    // 우측으로 밀지 않는다.
     a.set(0,200)
     println(a)
     a.removeAt(1)
