@@ -2,3 +2,6 @@
 
 #### kotlin 코드 경로
 > app > src > main > java > com.example > kotlin
+
+#### Layout 코드 경로
+> app > src > main > res > layout
