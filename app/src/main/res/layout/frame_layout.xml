@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--프레임 레이아웃에 자식으로 있는 뷰들을 겹치게 할 수있다.-->
+    <!--먼저 넣은 View가 제일 밑으로 가고, 제일 나중에 넣은 View가 제일 위로 간다.-->
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="#9C27B0"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="#4CAF50"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="#2196F3"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="300dp"
+            android:background="#2196F3"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:layout_height="300dp"/>
+        <TextView
+            android:layout_width="200dp"
+            android:background="#4CAF50"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:layout_height="200dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:background="#9C27B0"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:layout_height="100dp"/>
+
+
+></FrameLayout>
+
+</FrameLayout>
