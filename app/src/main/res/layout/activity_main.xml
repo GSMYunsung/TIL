@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- 부모 컴고포넌트는 실질적으로 화면에 나타나지는 않지만, 배치를하, 자식컴포넌트는 화면에 나타나지만 배치를 설정해줄순 없다.-->
+    <!-- 여기서 설정을 하면 Declared Attrlbutes창에서 확인가능, 또한 textView설정또한 Design에서 확인가능하다-->
+    <!-- view 컴포넌트 안에 속성을 적어주는곳-->
+    <!-- 부모인 LinearLayout 컴포넌트는 자식 컴포넌트를 가질 수있다-->
+    <!-- 크기는 dp단위를 사용하는것이 좋다-->
+    <!-- layout_gravity설정을 부모쪽에 사용하게되면 일괄적으로 자식 클래스들을 이동시키고, 자식클래스에 각자 사용하게되면 자식클래스각자의 위치가 바뀜-->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:background="#A156"
+        android:layout_height="300dp"
+        />
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="안녕하세요!"
+        android:textColor="@color/purple_200"
+        android:textSize="50dp"
+        android:background="@color/purple_500"
+        android:layout_height="wrap_content"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
