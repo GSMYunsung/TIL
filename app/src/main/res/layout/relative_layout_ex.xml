@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--ID를 하나의 TextView에만 부여하는 방법-->
+    <TextView
+        android:id="@+id/MainObject"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_500"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/MainObject"
+        android:layout_toRightOf="@id/MainObject"
+        android:background="@color/black" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/MainObject"
+        android:layout_toLeftOf="@id/MainObject"
+        android:background="@color/teal_200" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/MainObject"
+        android:layout_toRightOf="@id/MainObject"
+        android:background="@color/purple_200" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/MainObject"
+        android:layout_toLeftOf="@id/MainObject"
+        android:background="@color/white" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/MainObject"
+        android:layout_centerInParent="true"
+        android:background="#679E0E" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/MainObject"
+        android:layout_centerHorizontal="true"
+        android:background="@color/teal_700"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/MainObject"
+        android:layout_toRightOf="@id/MainObject"
+        android:background="#FFE53B"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/MainObject"
+        android:layout_toLeftOf="@id/MainObject"
+        android:background="#673AB7"/>
+
+</RelativeLayout>
