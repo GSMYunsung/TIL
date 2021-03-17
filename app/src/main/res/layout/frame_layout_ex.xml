@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--FrameLayout의 특성을 이용해 사진을 겹쳐보자!-->
+    <!-- gravity="" 옵션을 이용해, 부모클래스 기준으로 위치를 바꿀 수있다.-->
+
+    <TextView
+
+        android:background="@color/purple_200"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <TextView
+
+        android:background="@color/purple_500"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity= "center">
+
+    </TextView>
+
+    <TextView
+
+        android:background="#E91E63"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+</FrameLayout>
