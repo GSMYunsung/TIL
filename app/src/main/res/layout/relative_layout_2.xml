@@ -20,7 +20,7 @@
         android:background="@color/purple_200"/>
     <TextView
         android:id="@+id/view3"
-        android:layout_above="@id/view1"
+        android:layout_above="@id/view1" 
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@color/purple_200"/>
