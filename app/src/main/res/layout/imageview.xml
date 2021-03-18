@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_foreground">
+
+    </ImageView>
+
+    <!-- scaleType은 사진을 여백없이 딱맞게 쓰게 하고싶을 때 한다.-->
+    <!-- 하지만 디자인은 짤리는것을 감안하고 해야한다.-->
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#E91E63"
+        android:src="@drawable/dog"></ImageView>
+</LinearLayout>
