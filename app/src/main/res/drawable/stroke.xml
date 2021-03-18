@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--stroke옵션은 자신이 지정한 도형의 바깥쪽에 테두리를 그어준다.-->
+    <!-- stroke옵션의 선의 두깨는 width로 결정된다.-->
+
+    <stroke
+        android:width="30dp"
+        android:color="#84FADE"/>
+</shape>
