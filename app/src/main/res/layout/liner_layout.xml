@@ -55,7 +55,7 @@
         android:orientation="horizontal">
 
         <!-- 가로화면크기 비율 1:1:1-->
-        <!-- weighSum은 n등분 한 숫자-->
+        <!-- weight는 n등분 한 숫자-->
         <TextView
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -91,7 +91,7 @@
         <TextView
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="0"
+            android:layout_height="0dp"
             android:background="#ffffff"
             android:text="100"
             android:textSize="20dp" />
@@ -99,7 +99,7 @@
         <TextView
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="0"
+            android:layout_height="0dp"
             android:background="#ffffff"
             android:text="200"
             android:textSize="20dp" />
@@ -107,7 +107,7 @@
         <TextView
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="0"
+            android:layout_height="0dp"
             android:background="#ffffff"
             android:text="300"
             android:textSize="20dp"

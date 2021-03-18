@@ -5,7 +5,7 @@
 
     <!--프레임 레이아웃에 자식으로 있는 뷰들을 겹치게 할 수있다.-->
     <!--먼저 넣은 View가 제일 밑으로 가고, 제일 나중에 넣은 View가 제일 위로 간다.-->
-    
+
 
     <LinearLayout
         android:layout_width="wrap_content"
