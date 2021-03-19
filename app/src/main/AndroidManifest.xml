@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
+    <!-- 패키지의 고유한 이름-->
 
-    <!-- theme - @style/ 다음, 테마에서 style name="AppTheme"가 바로 들어가있어야 한다.-->
+
+<!-- theme - @style/ 다음, 테마에서 style name="AppTheme"가 바로 들어가있어야 한다.-->
+    <!-- 안드로이드앱의 지도역할, 각각이 어떤역할을 하는지 정의해주는 부분-->
+
+    <!--allowBackup : 내가 지정해 놓은것들을 앱을 삭제해도 백업 시키게함-->
+    <!--icon : 앱의 아이콘 설정, 파일경로로 내 컴퓨터에있는 사진을 불러옴-->
+    <!--label : 앱이름-->
+    <!--RoundIcon : 핸드폰마다 앱의 아이콘을 지정하는게 각자 다르다. 앱의 아이콘의 다른버전-->
+    <!--supportsRtl : 국가마다 왼->오 , 오->왼 순으로 각각 읽는 방향이 다르기 때문에 읽는 방향을 자동으로 설정해주는 옵션-->
+    <!--thema : 앱의 기본 스타일 태마-->
+    <!--Activity : 화면을 구성하는 부분, name은 실행할 화면을 나타내고, filter안에 LAUNCHER속성은 Activity를 Luncher화 해준다. 즉, 최초로 켜질 화면을 의미한다.-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
