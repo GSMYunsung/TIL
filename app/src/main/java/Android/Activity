@@ -1,0 +1,14 @@
+
+
+01.Activity
+- 앱의 한 화면이다.
+
+- Life Cycle(수명 주기)
+- OnCreate -> Activity가 만들어질 때 단 한번만 호출된다.
+           -> Activity를 만들 대 단 한번만 하면 되는 작업들은 여기에서 해줌.
+- OnStart
+- OnResume -> 다시 앱으로 돌아갈때 무조건 호출 된다.
+           -> Activity가 다시 호출될 때 하면 되는 작업들을 여기에서 해줌.
+- OnPause -> 화면의 일부가 가려 졌을때
+- OnStop -> 화면 전부가 보이지 않을 때
+- OnDestroy
