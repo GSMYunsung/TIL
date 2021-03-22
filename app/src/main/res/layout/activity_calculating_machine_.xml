@@ -192,7 +192,7 @@
             android:paddingLeft="40dp"
             android:paddingTop="40dp"
             android:id="@+id/division"
-            android:text="%"
+            android:text="/"
             android:textSize="70dp">
 
         </TextView>

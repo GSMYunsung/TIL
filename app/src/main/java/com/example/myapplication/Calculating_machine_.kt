@@ -14,6 +14,7 @@ class Calculating_machine_ : AppCompatActivity() {
         var new_num = "0"
         var old_num = "0"
         var resulte = 0
+        var sign = ""
 
         val number0 : TextView = findViewById(R.id.number0)
         val number1 : TextView = findViewById(R.id.number1)
@@ -85,13 +86,50 @@ class Calculating_machine_ : AppCompatActivity() {
             main_num.text = new_num
         }
         plus.setOnClickListener {
+            sign = "+"
+            old_num = new_num
+            new_num = "0"
+            main_num.text = new_num
+        }
+        minus.setOnClickListener {
+            sign = "-"
+            old_num = new_num
+            new_num = "0"
+            main_num.text = new_num
+        }
+        multiply.setOnClickListener {
+            sign = "*"
+            old_num = new_num
+            new_num = "0"
+            main_num.text = new_num
+        }
+        division.setOnClickListener {
+            sign = "/"
             old_num = new_num
             new_num = "0"
             main_num.text = new_num
         }
         result.setOnClickListener {
-            resulte = (old_num + new_num).toInt()
-            main_num.text = resulte.toString()
+            if(sign == "+"){
+                resulte = (old_num).toInt() + new_num.toInt()
+                main_num.text = resulte.toString()
+            }
+
+            else if(sign == "-"){
+                resulte = (old_num).toInt() - new_num.toInt()
+                main_num.text = resulte.toString()
+            }
+
+            else if(sign == "*"){
+                resulte = (old_num).toInt() * new_num.toInt()
+                main_num.text = resulte.toString()
+            }
+
+            else if(sign == "/"){
+                resulte = (old_num).toInt() / new_num.toInt()
+                main_num.text = resulte.toString()
+            }
         }
+
     }
 }
