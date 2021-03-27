@@ -1,0 +1,37 @@
+
+
+
+Task -> Activity
+
+- Stack
+    - 아래에서 위로 Task가 쌓임
+
+    - 켜지는 방법을 자체 속성으로 가지고있는 경우
+    -> launchMode
+
+    - 켜지는 방법을 지시하는 경우
+    -> IntentFalg
+
+    ex)
+                                       A
+    A ---> B ---> C ---> B ---> A ---> B    (다중허용여부)
+           A      B      A      B
+                  A             A
+
+[밑의 모드들은 스택관리가 어려울 뿐더러, 사용자가 느끼기에도 스택방식이 편하다 느끼기 때문에 건드리지 않는것이 좋다]
+
+- LaunchMode
+    - Standard  [O]
+    - singleTop  [조건부]  -> 열려고하는 Activity가 현재 Activity라면
+                              OnNewIntent를 호출한다.
+
+------------------------------------------------> 다중허용의 기준
+
+    - singleTask    [X]
+    - singleInstance    [X]
+
+- 인텐트 플레그
+FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_SINGLE_TOP
+FLAG_ACTIVITY_CLEAR_TOP
+등등.
