@@ -1,6 +1,7 @@
 
 # MVC
 
+```
 // 예시
 
 override funonCreate(savedInstanceState: Bundle?) {
