@@ -1,6 +1,6 @@
 ```
 
-❗ **개념알고가기**
+❗ 개념알고가기
 
 View Model 과 Data Domain 단위를 이어주는 레이어
 
@@ -49,7 +49,7 @@ ViewModel 이 자신의 비지니스 로직에만 집중할 수 있게 해주는
     로컬 DB인 Realm의 초기화까지 겸하게 됩니다.
     
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/893c5236-3237-4112-9155-1b184dd4d67d/Untitled.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/893c5236-3237-4112-9155-1b184dd4d67d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220418T054753Z&X-Amz-Expires=86400&X-Amz-Signature=a928755d71d2d07978d2574f95e5a3607eda648c4bb43fc300d971ec410aa50f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 이제 Repository 클래스를 추가한 코드입니다. 
 
@@ -62,9 +62,9 @@ ViewModel 에서 직접 접근했던 것들을 아래와 같이 Repository 클�
     DB 초기화와 같은 일은 하지 않아도 되게 됩니다.
     
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5cac67b-f34d-43b1-85e5-1cdfbc148bb7/Untitled.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d5cac67b-f34d-43b1-85e5-1cdfbc148bb7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220418T054814Z&X-Amz-Expires=86400&X-Amz-Signature=c6c5a005bbe5fc4282072001787f6524401aa7b06790235915f0c875485f8e7a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/954722a4-b270-4d6d-8b5f-fbdd51c9ada2/Untitled.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/954722a4-b270-4d6d-8b5f-fbdd51c9ada2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220418T054832Z&X-Amz-Expires=86400&X-Amz-Signature=a93e9d72faba64349ac4f0a32600783ff45c42e9c8ce52c0f6ed7cba2fb3a14d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ## 결론
 
