@@ -11,7 +11,7 @@ View Model 과 Data Domain 단위를 이어주는 레이어
 
 ## Repository 패턴과 MVVM
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/497599ed-c7d6-4623-947f-6caabbdc3910/Untitled.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/497599ed-c7d6-4623-947f-6caabbdc3910/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220418T054721Z&X-Amz-Expires=86400&X-Amz-Signature=d22895c8551ba409be5eee00c814e297f3be65690cdfb06ad82a35da0620622c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 `Repository` 의 역할을 이해하기 위해선 `MVVM` 패턴을 먼저 살펴볼 필요가 있습니다.
 
