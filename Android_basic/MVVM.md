@@ -14,14 +14,14 @@ MVVM 패턴이란 **Model, View, ViewModel의** 줄임말입니다. 하나의 �
 
 MVP와 마찬가지로 M-V 사이의 의존성이 없고, MVP처럼 V-VM이 1:1 관계가 아닌 독립적이기 때문에 이 둘 사이의 의존성도 없습니다.
 
-<aside>
-❗ **model** : 비즈니스 로직
+```
+❗ model : 비즈니스 로직
 
-**view** : view 화면 UI 처리
+view : view 화면 UI 처리
 
-**view model** : View와 Model 사이의 매개체
+view model : View와 Model 사이의 매개체
 
-</aside>
+```
 
 - 자세히보기
     
